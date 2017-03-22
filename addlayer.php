@@ -16,7 +16,7 @@
 
 	$USERNAME=$user->get('username');
 
-	$user = $session->get( 'user' );
+	echo $user = $session->get( 'user' );
 
 
 	$namequery="select concat(name,' ',middle_name,' ',last_name)as name from ".$prefix."users where id='".$ID."'";
