@@ -12,7 +12,7 @@
 
 	$user = $session->get( 'user' );
 
-	$ID=$user->get('id');
+	echo $ID=$user->get('id');
 
 	$USERNAME=$user->get('username');
 
